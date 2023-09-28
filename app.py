@@ -210,6 +210,3 @@ def researchAgent(query: Query):
     content = agent({"input": query})
     actual_content = content['output']
     return actual_content
-
-
-print(test)
